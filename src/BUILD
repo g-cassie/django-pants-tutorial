@@ -5,3 +5,13 @@ pex_binary(
     ],
     script="django-admin",
 )
+
+python_sources()
+
+pex_binary(
+    name="manage",
+    entry_point="manage.py",
+    dependencies=[
+        "src/mysite:mysite",
+    ],
+)
