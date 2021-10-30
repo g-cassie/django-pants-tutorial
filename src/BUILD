@@ -15,4 +15,5 @@ pex_binary(
         "src/mysite:mysite",
         "src/polls:polls",
     ],
+    inherit_path='prefer'
 )
