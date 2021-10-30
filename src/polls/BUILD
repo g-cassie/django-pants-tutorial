@@ -1,6 +1,7 @@
 python_sources(
   dependencies=[
       "src/polls/migrations:migrations",
+      "src/polls/templates:templates",
   ],
 )
 
