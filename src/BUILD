@@ -13,5 +13,6 @@ pex_binary(
     entry_point="manage.py",
     dependencies=[
         "src/mysite:mysite",
+        "src/polls:polls",
     ],
 )
